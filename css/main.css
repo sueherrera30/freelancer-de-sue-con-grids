@@ -1,3 +1,51 @@
-/*
- * Estilos de tu proyecto
- */
+/* estilos de nav */
+*{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+/*header*/
+nav{
+  padding: 30px;
+  background-color: #2c3e50;
+  /*position: fixed;*/
+}
+nav a{
+  text-decoration: none;
+  font-size: 15px;
+}
+  .titulo{
+   font-size: 25px;
+}
+
+a:hover{
+  color:#18BC9C;
+}
+
+/*seccion azul*/
+.separador{
+ height: 105px;
+ background-color: #18BC9C;
+
+}
+.seccion-azul{
+  background-color: #18BC9C;
+}
+.arquitecto{
+  padding-top:60px;
+  margin-left: 70px;
+}
+.start-texto{
+  font-size: 68px;
+  text-align: justify;
+  margin-top: 10px;
+}
+.estrella{
+  font-size:45px;
+}
+hr{
+
+  width: 100px;
+  color: white;
+}
