@@ -14,7 +14,7 @@
 <body>
 	<!-- parte de header -->
 	<header class="container">
-		<nav class="row">
+		<nav  id="barra" class="row">
 			<section class="col-1"></section>
 			<section class="col-3 titulo">
 				<a class="titulo ">START BOOTSTRAP</a>
@@ -55,10 +55,11 @@
     	</section>
 			<!-- separador estrella -->
 			<section class="row">
-			 <section class="col-5"></section>
-			 <section class="col-2">
-				 <!-- <hr class="linea-estrellita"> -->
+			 <section class="col-3"></section>
+			 <section class="col-6">
+				  <div class="estrellita"></div>
 				 <i class="fa fa-star" aria-hidden="true"></i>
+				 <div class="estrellita"></div>
 			 </section>
 			<!-- texto-descriptivo -->
 			<section class="row">
@@ -76,7 +77,9 @@
 				<p  class="portafolio">PORTAFOLIO</p>
 			</section>
 			<section class="col-12">
-			<i class="fa fa-star portafolio-estrella" aria-hidden="true"></i>
+			 <div class="estrellita estrellita-azul"></div>
+			 <i class="fa fa-star portafolio-estrella" aria-hidden="true"></i>
+        <div class="estrellita estrellita-azul"></div>
 			</section>
 		</section>
 		<!-- imagenes -->
@@ -111,14 +114,16 @@
 	</article>
 
 <!-- seccion about  -->
-<article class="container seccion-azul">
+<article class="container seccion-azul about">
 	<section class="row">
 		<section class="col-3"></section>
 		<section class="col-6">
 		<p class="titulo-texto centro">ABOUT</p>
 	</section>
 	<section class="col-12">
-	<i class="fa fa-star" aria-hidden="true"></i>
+		 <div class="estrellita"></div>
+	   <i class="fa fa-star" aria-hidden="true"></i>
+		 <div class="estrellita"></div>
 	</section>
 	</section>
 
@@ -144,6 +149,90 @@
 						</section>
 	  			</section>
 </article>
+
+<!-- SECCION CONTACT ME -->
+<article class="container-formulario">
+<!-- titulo -->
+<section class="row">
+	<section class="col-12">
+		<p  class="portafolio">CONTACT ME</p>
+	</section>
+	<section class="col-12">
+	 <div class="estrellita estrellita-azul"></div>
+	 <i class="fa fa-star portafolio-estrella" aria-hidden="true"></i>
+		<div class="estrellita estrellita-azul"></div>
+	</section>
+</section>
+  </section>
+	<section class="row">
+		<section class="col-12">
+			<hr>
+			<input  type="text" placeholder="Name" class="datos">
+		</section>
+		<section class="col-12">
+			<hr>
+			<input type="text" placeholder="E-mail Adress" class="datos">
+		</section>
+		<section class="col-12">
+			<hr>
+			<input id="telefono" type="tel" placeholder="Phone Number" class="datos">
+		</section>
+		<section class="col-12">
+			<hr>
+			<input type="text" placeholder="Message" class="datos mensaje">
+			<hr>
+		</section>
+	</section>
+
+<!-- boton send-->
+<section class="row">
+	<section class="col-2"></section>
+	<section class="col-1">
+		<div class="boton-send">Send</div>
+	</section>
+	<section class="col-12">
+		<div class="espacio"></div>
+	</section>
+</article>
+
+<!-- informacion  -->
+<article class="container informacion">
+	<section class="row">
+		<section class="col-1"></section>
+		<section class="col-10">
+		<section class="col-4">
+			<p class="columnas-texto">LOCATION</p>
+			<p>3481 Melrose Place
+         Beverly Hills, CA 90210</p>
+		</section>
+		<section class="col-4">
+			<p class="columnas-texto">AROUND THE WEB</p>
+      <div class="circulo">
+			<i class="fa fa-facebook" aria-hidden="true"></i>
+		</div>
+      <div class="circulo">
+			<i class="fa fa-google-plus" aria-hidden="true"></i>
+		</div>
+      <div class="circulo">
+			<i class="fa fa-twitter" aria-hidden="true"></i>
+		</div>
+      <div class="circulo">
+			<i class="fa fa-linkedin" aria-hidden="true"></i>
+		</div>
+      <div class="circulo">
+			<i class="fa fa-dribbble" aria-hidden="true"></i>
+		</div>
+		</section>
+		<section class="col-4">
+			<p class="columnas-texto">ABOUT FREELANCER</p>
+			Freelance is a free to use,
+			open source Bootstrap theme
+			 created by <p class="colorcito">Start Bootstrap</p>.
+		</section>
+	</section>
+</article>
+
+
 
 
 
