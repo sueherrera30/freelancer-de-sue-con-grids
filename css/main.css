@@ -54,19 +54,17 @@ font-size: 25px;
 position:relative;
 text-align: center;
 
+
 }
-/*.linea-Estrellita{
-  border-color: #fff;
-  padding: 0;
-  border: none;
-  border-top: solid 5px;
-  text-align: center;
-  background-color:#18BC9C;
+.estrellita{
+  background-color: white;
+  display: inline-block;
+  vertical-align: middle;
+  height: 5px;
+  width: 100px;
+  margin-bottom: 10px;
+
 }
-.linea-Estrellita:after{
-  content: "\f2e0"
-  top:-30px;
-}*/
 
 /*texto descriptivo*/
 .texto-descriptivo{
@@ -75,7 +73,7 @@ text-align: center;
   text-align:center;
   margin-bottom: 100px;
 }
-/*seccion portafolio*/
+/*seccion PORTAFOLIO*/
 .centro{
   text-align:center;
 }
@@ -93,6 +91,10 @@ text-align: center;
   color:#2c3e50;
   margin-bottom: 20px;
 }
+
+.estrellita-azul{
+  background-color:#2c3e50;
+}
 .imagenes-portafolio{
   width: 80%;
 display: block;
@@ -100,6 +102,9 @@ margin: 0 auto;
 }
 
 /*seccion about*/
+.about{
+  padding-bottom: 80px;
+}
 .parrafitos{
   text-align: justify;
   padding: 20px;
@@ -112,11 +117,75 @@ margin: 0 auto;
   text-align: center;
   border: white 1px solid;
   border-radius:7px;
-  padding: 20px;
+  padding: 15px;
   background-color:#18BC9C;
-  font-size: 20px;
+  font-size:20px;
 }
 .boton-descarga:hover{
   background-color: white;
   color:#18BC9C;
+}
+
+/*SECCION CONTACT ME */
+.container-formulario{
+  padding: 70px;}
+
+  hr{
+    width: 800px;
+  }
+
+  .datos{
+   background-color: transparent;
+   border: 0px solid;
+   width: 800px;
+   height: 20px;
+   color: gray;
+   font-size: 20px;
+   padding:25px;
+   font-family: 'Lato', sans-serif;
+  }
+  .mensaje{
+    height: 180px;
+  }
+  .boton-send{
+    height:50px;
+    width: 80px;
+    color:white;
+    background-color:#18BC9C;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 6px;
+  }
+  .spacio{
+    height:70px;
+  }
+  .informacion{
+    background-color:#2c3e50;
+    padding-bottom: 80px;
+  }
+  .colorcito{
+    color:#18BC9C;
+    display: inline;
+  }
+  .columnas-texto{
+    font-size:24px;
+    padding: 25px;
+  }
+
+  .circulo{
+    display: inline;
+    font-size: 18px;
+    margin: 5px;
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    border: solid 2px white;
+    border-radius: 50%
+  }
+.circulo > i:hover{
+  color:#18BC9C;
+  background-color: white;
+}
+.circulo:hover{
+  background-color: white;
 }
